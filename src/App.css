@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   background-color: #1E392A;
   display: flex;
@@ -17,6 +21,7 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  height: -webkit-fill-available;
 }
 
 .container {
